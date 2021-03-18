@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "home automation server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node ."
+  },
+  "keywords": [
+    "rpi",
+    "raspberrypi",
+    "home-automation"
+  ],
+  "author": "nirmal15mathew",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  },
+  "module": "./story/PinManager.js"
+}
